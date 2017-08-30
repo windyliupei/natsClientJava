@@ -53,7 +53,7 @@ public class ApplicationStart {
             nsi.setNatsPassword("1qaz2wsx");
 
             //sendNatsWithSSLOffical(nsi);
-            sendNatsWithSSL("nats://115.159.114.116:4222",nsi);
+            sendNatsWithSSL("nats://127.0.0.1:4222",nsi);
         }
         catch(Exception ex){
             System.out.print(ex);
